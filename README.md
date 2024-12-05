@@ -2,6 +2,9 @@
 - `node -v` (20.17.0)
 - `npm -v` (10.9.1)
 
+## Install react-dom
+- `npm install react-router-dom`
+
 ## Getting Started with Create React App
 - `npx create-react-app team_builders`
 
