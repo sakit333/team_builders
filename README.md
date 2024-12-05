@@ -1,6 +1,21 @@
-# Getting Started with Create React App
+## Installation
+- `node -v` (20.17.0)
+- `npm -v` (10.9.1)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started with Create React App
+- `npx create-react-app team_builders`
+
+## Inside that directory, you can run several commands:
+- Starts the development server - `npm start`
+- Bundles the app into static files for production - `npm run build`
+- Starts the test runner - `npm test`
+- `npm run eject` : Removes this tool and copies build dependencies, configuration files and scripts into the app directory. If you do this, you can’t go back!
+
+## We suggest that you begin by typing:
+- `cd team_builders`
+- `npm start`
+
+- *This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).*
 
 ## Available Scripts
 
