@@ -1,0 +1,93 @@
+/* General Layout */
+.construction-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    min-height: 100vh;
+  }
+  
+  .logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sak-logo {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Title Styling */
+  .construction-title {
+    font-size: 2.5rem;
+    color: #2a2a2a;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  /* Loading/Error Messages */
+  .loading-text,
+  .error-text {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ff6f61;
+  }
+  
+  /* Gallery Layout */
+  .construction-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Card Styling */
+  .construction-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .construction-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .construction-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  /* Details Styling */
+  .construction-details {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .construction-title {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .construction-location {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .construction-title {
+      font-size: 1.8rem;
+    }
+  
+    .construction-gallery {
+      grid-template-columns: 1fr;
+    }
+  }
+  

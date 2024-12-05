@@ -65,7 +65,7 @@ const Home = () => {
         />
       </div>
       <h1 className="title">Coorg Photo Gallery</h1>
-      {loading && <p>Loading...</p>}
+      {loading && <p></p>}
       {error && <p className="error">{error}</p>}
       <div className="photo-gallery">
         {photos.map((photo) => (

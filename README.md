@@ -2,6 +2,9 @@
 - `node -v` (20.17.0)
 - `npm -v` (10.9.1)
 
+## To load node_modules
+- `npm i`
+
 ## Install react-dom
 - `npm install react-router-dom`
 
